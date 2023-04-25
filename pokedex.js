@@ -60,31 +60,31 @@ function updatePokemon() {
         info.style.background = 'url(img/grass.png) no-repeat';
         info.style.backgroundSize = 'cover';
     }
-    if (types[0]["type"]["name"].toUpperCase()=='WATER') {
+    else if (types[0]["type"]["name"].toUpperCase()=='WATER') {
         info.style.background = 'url(img/water.png) no-repeat';
         info.style.backgroundSize = 'cover';
     }
-    if (types[0]["type"]["name"].toUpperCase()=='FIRE') {
+    else if (types[0]["type"]["name"].toUpperCase()=='FIRE') {
         info.style.background = 'url(img/fire.png) no-repeat';
         info.style.backgroundSize = 'cover';
     }
-    if (types[0]["type"]["name"].toUpperCase()=='ICE') {
+    else if (types[0]["type"]["name"].toUpperCase()=='ICE') {
         info.style.background = 'url(img/ice.jpg) no-repeat';
         info.style.backgroundSize = 'cover';
     }
-    if ((types[0]["type"]["name"].toUpperCase()=='GROUND')||(types[0]["type"]["name"].toUpperCase()=='ROCK')||(types[0]["type"]["name"].toUpperCase()=='STEEL')) {
+    else if ((types[0]["type"]["name"].toUpperCase()=='GROUND')||(types[0]["type"]["name"].toUpperCase()=='ROCK')||(types[0]["type"]["name"].toUpperCase()=='STEEL')) {
         info.style.background = 'url(img/ground.jpg) no-repeat';
         info.style.backgroundSize = 'cover';
     }
-    if (types[0]["type"]["name"].toUpperCase()=='FIGHTING') {
+    else if (types[0]["type"]["name"].toUpperCase()=='FIGHTING') {
         info.style.background = 'url(img/fighting.png) no-repeat';
         info.style.backgroundSize = 'cover';
     }
-    if ((types[0]["type"]["name"].toUpperCase()=='GHOST')||(types[0]["type"]["name"].toUpperCase()=='DARK')) {
+    else if ((types[0]["type"]["name"].toUpperCase()=='GHOST')||(types[0]["type"]["name"].toUpperCase()=='DARK')) {
         info.style.background = 'url(img/ghost.png) no-repeat';
         info.style.backgroundSize = 'cover';
     }
-    if ((types[1]["type"]["name"].toUpperCase()=='FLYING')||(types[0]["type"]["name"].toUpperCase()=='DRAGON')) {
+    else if ((types[1]["type"]["name"].toUpperCase()=='FLYING')||(types[0]["type"]["name"].toUpperCase()=='DRAGON')) {
         info.style.background = 'url(img/flying.png) no-repeat';
         info.style.backgroundSize = 'cover';
     }
